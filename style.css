@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+}
+
+.container {
+    margin-top: 10vh;
+}
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    font-weight: 900;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card > img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.plan-container {
+    background-color: hsl(225, 100%, 99%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.plan-container > img {
+    padding: 10px;
+}
+
+.plan-container > p {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.plan-container > p > span {
+    font-weight: 500;
+}
+.plan-container > a {
+    padding: 20px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn-proceed {
+    background-color: hsl(224, 23%, 55%);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.btn-cancel {
+    background-color: white;
+    font-weight: 900;
+
+}
+@media screen and (max-width: 375px) {
+    
+}
